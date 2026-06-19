@@ -47,6 +47,16 @@ python scripts/run.py --action workflow --text "YOURTEXT"
 | `optimized_run.py` | Fast operations (<200ms) |
 | `shopify_orders.py` | Fetch pending Shopify orders |
 | `pipeline.py` | Main pipeline orchestrator |
+| `create_plate_from_order.py` | Main plate creation (Blender) |
+| `create_goon_plate_english.py` | English text plate generator |
+| `create_full_plate_workflow.py` | Full workflow automation |
+
+## Reference Files
+
+| Directory | Contents |
+|-----------|----------|
+| `references/blanks/` | STL blank templates (moto, moto-bolt, car) |
+| `references/fonts/` | DealerPlate font for text extrusion |
 
 ## Configuration
 
