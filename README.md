@@ -8,7 +8,7 @@ This pipeline integrates:
 
 - **shopify-skill** - Order intake from Shopify API
 - **Dilmun Protocol** - Memory middleware for orchestration
-- **Blender-MCP** - 3D geometry generation and boolean operations
+- **Blender** - 3D geometry generation and boolean operations
 
 ## Architecture
 
@@ -19,9 +19,9 @@ shopify-skill (fetch)
     ↓
 Dilmun Memory (order.received event)
     ↓
-Blender-MCP (geometry generation)
+Blender (text extrusion + boolean ops)
     ↓
-3MF Output
+STL Output (to slicer)
     ↓
 Printer Queue (K2 Plus or Bambu)
 ```
