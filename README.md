@@ -71,10 +71,8 @@ export DILMUN_VAULT="/home/kworqs/.pi/subdilmun"
 ## Requirements
 
 - Python 3.9+
-- `obsidian_dilmun` package
-- `shopify` package
-- `httpx`, `tenacity` for API calls
-
+- Obsidian
+  
 ## Status
 
 - **Phase 1**: Shopify API Integration (In Progress)
@@ -84,9 +82,10 @@ export DILMUN_VAULT="/home/kworqs/.pi/subdilmun"
 
 ## Related Skills
 
-- [dilmun-protocol](https://github.com/kwedder/dilmun-protocol) - Memory middleware
-- [shopify-skill](https://github.com/kwedder/shopify-skill) - Shopify API client
-- [goon-plates](https://github.com/kwedder/goon-plates) - Blender scripts
+- [dilmun-memory-middleware](https://github.com/kwedder/dilmun-memory-middleware) - Memory middleware
+
+
+** Shopify API has to be created via Shopify dev dashboard. - See docs here (https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/generate-app-access-tokens-admin)
 
 ## License
 
