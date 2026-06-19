@@ -86,8 +86,9 @@ Printer Queue (K2 Plus or Bambu)
 | Decision | Rationale | Outcome |
 | -------- | --------- | ------- |
 | Project name | Avoid "goon plates" branding | shopify-printer-pipeline |
-| Integration approach | Use existing blender-mcp-goon-plates | - Pending |
-| v1 scope | Shopify → Dilmun → Blender-MCP → 3MF | - Pending |
+| Integration approach | Use existing blender-mcp-goon-plates | ✅ Implemented in scripts/pipeline.py |
+| v1 scope | Shopify → Dilmun → Blender-MCP → 3MF | ✅ Scripts ready for Phase 1 |
+| Pipeline entry point | scripts/pipeline.py | ✅ Created |
 
 ---
 *Last updated: 2026-06-18 after initialization*
