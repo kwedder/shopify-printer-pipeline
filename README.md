@@ -1,6 +1,6 @@
 # Kworqs Shopify Printer Pipeline
 
-A GSD-compliant pipeline that transforms Shopify custom text orders into production-ready 3D printable models.
+A pipeline that transforms Shopify custom text orders into production-ready 3D printable models.
 
 ## Overview
 
